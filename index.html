@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encrypter/Decrypter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <main class="main-content">
+        <section class="input-area">
+            <textarea class="textbox-input" id="textInput" placeholder="Input text to encrypt"></textarea>
+
+            <div class="buttons-container">
+                <button class="button-ecrypt" id="encryptButton">Encrypt</button>
+                <button class="button-decrypt" id="decryptButton">Decrypt</button>
+            </div>
+
+        </section>
+
+        <section class="output-area">
+            <textarea class="textbox-output" id="textboxOutput" placeholder="Decrypted text"></textarea>
+
+            <div class="buttons-container">
+                <button class="button-copy" id="copyButton">Copy</button>
+
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
