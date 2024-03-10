@@ -43,3 +43,14 @@ function decrypter(phrasetoEncrypt) {
     }
     return phrasetoEncrypt
 }
+
+function copyText(){
+    const textToCopy = document.getElementById("textboxOutput");
+
+    textToCopy.select();
+    textToCopy.setSelectionRange(0,99999);
+
+    navigator.clipboard.writeText(textToCopy.value);
+
+    alert("Copied the text: " + textToCopy.value);
+}
