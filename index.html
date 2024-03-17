@@ -6,22 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encrypter/Decrypter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <img src="img/Logo.png" alt="Logo" class="logo">
+    </header>
+
     <main class="main-content">
         <section class="input-area">
-            <textarea class="textbox-input" id="textInput" placeholder="Input text to encrypt"></textarea>
+            <textarea class="textbox-input" cols="30" rows="10" id="textInput"
+                placeholder="Input text to encrypt"></textarea>
+
+            <div>
+                <h6 class="information">Only lowercase letters and without accents.</h6>
+            </div>
 
             <div class="buttons-container">
-                <button class="button-ecrypt" id="encryptButton" onclick="btnEcrypt()">Encrypt</button>
+                <button class="button-encrypt" id="encryptButton" onclick="btnEncrypt()">Encrypt</button>
                 <button class="button-decrypt" id="decryptButton" onclick="btnDecrypt()">Decrypt</button>
             </div>
 
         </section>
 
         <section class="output-area">
-            <textarea class="textbox-output" id="textboxOutput" placeholder="Decrypted text"></textarea>
+            <textarea class="textbox-output" cols="20" rows="10" id="textboxOutput"
+                placeholder="Decrypted text"></textarea>
 
             <div class="buttons-container">
                 <button class="button-copy" id="copyButton" onclick="copyText()">Copy</button>

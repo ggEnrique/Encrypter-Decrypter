@@ -1,0 +1,101 @@
+* {
+    background: #FFE6E6;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.textbox-input {
+    border: none;
+    color: #573D5E;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+.textbox-input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #573D5E;
+}
+
+.textbox-output {
+    background: #E1AFD1;
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #573D5E;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.textbox-output:focus {
+    outline: none;
+}
+
+.buttons-container {
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.button-encrypt {
+    background-color: #573D5E;
+    border: 1px solid #573D5E;
+    border-radius: 24px;
+    color: #E1AFD1;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.button-decrypt {
+    background: #AD88C6;
+    border: 1px solid #573D5E;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.button-copy {
+    border: 1px solid #573D5E;
+    border-radius: 24px;
+    color: #573D5E;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.information{
+    color: #9E8FB2;
+    font-size: 18px;
+}
+
+footer > p{
+    color: #9E8FB2;
+    font-size: 18px;
+}

@@ -10,7 +10,7 @@ const codeMatrix = [
     ["u", "ufat"],
 ]
 
-function btnEcrypt() {
+function btnEncrypt() {
     const text = encrypter(inputText.value);
     outputText.value = text
 }
